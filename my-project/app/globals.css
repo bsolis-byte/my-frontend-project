@@ -65,9 +65,9 @@ nav a:hover {
 }
 
 .hero-photo {
-  width: 500px;
-  height: 580px;
-  border-radius: 20px;
+  width: 450px;
+  height: 590px;
+  border-radius: 30px;
   border: 5px solid #c54aff;
   box-shadow: 0 0 25px #c54aff;
   margin-top: 109px;
@@ -87,8 +87,8 @@ nav a:hover {
 }
 
 .hero-description {
-  margin-top: 20px;
-  font-size: 16px;
+  margin-top: 10px;
+  font-size: 18px;
   line-height: 1.5;
   color: white;
 }
@@ -183,7 +183,7 @@ img {
 }
 
 .about-quote {
-  font-size: 32px;
+  font-size: 38px;
   font-weight: bold;
   text-align: center;
   color: #ffffff;
@@ -192,7 +192,7 @@ img {
 }
 
 .about-text {
-  width: 500px;
+  width: 270px;
   font-size: 17px;
   color: #ffffff;
   text-align: left;
@@ -200,10 +200,10 @@ img {
 }
 
 .about-photo img {
-   margin-top: 40px; 
+   margin-top: 400px; 
   width: 500px;
-  height: 570;
-  border-radius: 25px;
+  height: 580;
+  border-radius: 50px;
   border: 3px solid #d46bff;
   box-shadow: 0 0 40px #d46bff;
   margin-top: 109px;
@@ -591,7 +591,7 @@ html {
 }
 
 .about-title {
-  font-size: 38px;
+  font-size: 380px;
   font-weight: 800;
   color: #ffffff;
   text-shadow: 0 0 12px #d46bff;
@@ -608,7 +608,7 @@ html {
 }
 
 .about-photo-frame {
-  width: 420px;
+  width: 4px;
   height: 520px;
   border-radius: 30px;
   overflow: hidden;

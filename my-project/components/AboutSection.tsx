@@ -18,7 +18,7 @@ export default function AboutSection() {
         </div>
 
         <ScrollAnimation delay={100}>
-        <div className="about-photo" style={{ marginTop: "100px" }}>
+        <div className="about-photo">
     <img src="/pic(2).png" alt="about" />
   </div>
       </ScrollAnimation>
