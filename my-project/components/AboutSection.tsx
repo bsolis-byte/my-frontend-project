@@ -1,8 +1,11 @@
+import ScrollAnimation from "./ScrollAnimation"
+
 export default function AboutSection() {
   return (
     <section className="section">
       <div className="container-about-grid">
         <div>
+          <ScrollAnimation delay={100}>
           <h2 className="about-quote">About Me</h2>
           <p className="about-text">
             I’m Benedict H. Solis I am 19-years-old BSCS second year Student at Naga
@@ -11,11 +14,14 @@ export default function AboutSection() {
             future. I enjoy learning new things that can help me improve my skills
             especially my coding.
           </p>
+            </ScrollAnimation>
         </div>
 
+        <ScrollAnimation delay={100}>
         <div className="about-photo" style={{ marginTop: "100px" }}>
     <img src="/pic(2).png" alt="about" />
   </div>
+      </ScrollAnimation>
       </div>
     </section>
   );

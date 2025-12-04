@@ -414,3 +414,210 @@ html {
   transform: translateY(-2px);
   box-shadow: 0 0 18px #d300ff;
 }
+
+/* Fade In */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.5s ease forwards;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Slide In Left */
+.slide-left {
+  opacity: 0;
+  transform: translateX(-40px);
+  animation: slideLeft 1.5s ease forwards;
+}
+@keyframes slideLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Slide In Right */
+.slide-right {
+  opacity: 0;
+  transform: translateX(40px);
+  animation: slideRight 1.5s ease forwards;
+}
+@keyframes slideRight {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Zoom In */
+.zoom-in {
+  opacity: 0;
+  transform: scale(0.9);
+  animation: zoomIn 15.5s ease forwards;
+}
+@keyframes zoomIn {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Fade Up */
+.fade-up {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 15.5s ease forwards;
+}
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Fade Down */
+.fade-down {
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeDown 15.5s ease forwards;
+}
+@keyframes fadeDown {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Fade Left */
+.fade-left {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: fadeLeft 15.5s ease forwards;
+}
+@keyframes fadeLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Fade Right */
+.fade-right {
+  opacity: 0;
+  transform: translateX(20px);
+  animation: fadeRight 15.5s ease forwards;
+}
+@keyframes fadeRight {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s ease;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Start hidden */
+.fade-in-start {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+}
+
+/* When visible */
+.fade-in-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+/* ABOUT SECTION FIX */
+.about-wrapper {
+  margin-top: 100px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-text p {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.about-image img {
+  border-radius: 25px;
+}
+
+/* ==========================
+   ABOUT SECTION FULL FIX
+   ========================== */
+
+.about-section {
+  width: 100%;
+  padding-top: 180px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  max-width: 1300px;
+  padding: 20px;
+}
+
+.about-title {
+  font-size: 38px;
+  font-weight: 800;
+  color: #ffffff;
+  text-shadow: 0 0 12px #d46bff;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.about-text-box {
+  width: 520px;
+  font-size: 17px;
+  line-height: 1.7;
+  color: white;
+  text-align: left;
+}
+
+.about-photo-frame {
+  width: 420px;
+  height: 520px;
+  border-radius: 30px;
+  overflow: hidden;
+  border: 5px solid #d46bff;
+  box-shadow: 0 0 40px #d46bff;
+}
+
+.about-photo-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
