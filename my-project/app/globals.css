@@ -415,7 +415,6 @@ html {
   box-shadow: 0 0 18px #d300ff;
 }
 
-/* Fade In */
 .fade-in {
   opacity: 0;
   animation: fadeIn 1.5s ease forwards;
@@ -426,7 +425,6 @@ html {
   }
 }
 
-/* Slide In Left */
 .slide-left {
   opacity: 0;
   transform: translateX(-40px);
@@ -439,7 +437,6 @@ html {
   }
 }
 
-/* Slide In Right */
 .slide-right {
   opacity: 0;
   transform: translateX(40px);
@@ -452,7 +449,6 @@ html {
   }
 }
 
-/* Zoom In */
 .zoom-in {
   opacity: 0;
   transform: scale(0.9);
@@ -465,7 +461,6 @@ html {
   }
 }
 
-/* Fade Up */
 .fade-up {
   opacity: 0;
   transform: translateY(20px);
@@ -478,7 +473,6 @@ html {
   }
 }
 
-/* Fade Down */
 .fade-down {
   opacity: 0;
   transform: translateY(-20px);
@@ -491,7 +485,6 @@ html {
   }
 }
 
-/* Fade Left */
 .fade-left {
   opacity: 0;
   transform: translateX(-20px);
@@ -504,7 +497,6 @@ html {
   }
 }
 
-/* Fade Right */
 .fade-right {
   opacity: 0;
   transform: translateX(20px);
@@ -538,19 +530,18 @@ html {
     transform: translateY(0);
   }
 }
-/* Start hidden */
+
 .fade-in-start {
   opacity: 0;
   transform: translateY(40px);
   transition: opacity 0.9s ease-out, transform 0.9s ease-out;
 }
 
-/* When visible */
 .fade-in-visible {
   opacity: 1;
   transform: translateY(0);
 }
-/* ABOUT SECTION FIX */
+
 .about-wrapper {
   margin-top: 100px;
 }
@@ -569,10 +560,6 @@ html {
 .about-image img {
   border-radius: 25px;
 }
-
-/* ==========================
-   ABOUT SECTION FULL FIX
-   ========================== */
 
 .about-section {
   width: 100%;

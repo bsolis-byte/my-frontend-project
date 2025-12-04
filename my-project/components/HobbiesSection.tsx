@@ -9,7 +9,6 @@ export default function HobbiesSection() {
       </ScrollAnimation>
       <div className="hobby-grid">
 
-        {/* Hobby 1 */}
         <ScrollAnimation delay={100}>
           <div className="hobby-card">
             <div className="fade-in"></div>
@@ -21,7 +20,6 @@ export default function HobbiesSection() {
           </div>
         </ScrollAnimation>
 
-        {/* Hobby 2 */}
         <ScrollAnimation delay={200}>
           <div className="hobby-card">
             <div className="fade-in"></div>
@@ -33,7 +31,6 @@ export default function HobbiesSection() {
           </div>
         </ScrollAnimation>
 
-        {/* Hobby 3 */}
         <ScrollAnimation delay={300}>
           <div className="hobby-card">
             <div className="fade-in"></div>

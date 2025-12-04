@@ -5,7 +5,6 @@ export default function ContactSection() {
     <section className="contact-section">
       <div className="contact-wrapper">
 
-        {/* Icons */}
         <ScrollAnimation delay={100}>
           <div className="contact-icons">
             <img src="/fb.png" alt="Facebook" />
@@ -14,7 +13,6 @@ export default function ContactSection() {
           </div>
         </ScrollAnimation>
 
-        {/* Text Info */}
         <ScrollAnimation delay={200}>
           <div className="contact-text">
             <h2>Benedict Solis</h2>
